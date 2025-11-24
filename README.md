@@ -1,5 +1,3 @@
----
-
 # Masters Thesis – Recognizing emotions in text using classical and large language models
 
 This repository contains the full codebase used in my master’s thesis, which compares traditional neural architectures (Feed-Forward, CNN, LSTM) with a fine-tuned transformer-based large language model for multiclass emotion recognition in text.
