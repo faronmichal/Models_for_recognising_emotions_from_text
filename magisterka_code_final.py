@@ -588,7 +588,8 @@ with torch.no_grad():
 
 test_acc = 100 * correct / total
 test_f1 = f1_score(all_labels, all_preds, average='weighted')
-print(f"\n✅ Test Accuracy: {test_acc:.2f}% - F1 Score: {test_f1:.4f}")
+print(f"Test Accuracy: {test_acc:.2f}% - F1 Score: {test_f1:.4f}")
 plot_confusion_and_report(all_labels, all_preds, class_names=CLASS_NAMES, normalize=True)
+
 
 
